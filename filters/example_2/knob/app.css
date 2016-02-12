@@ -1,0 +1,27 @@
+		.container{
+			position:relative;
+			top:30px;
+			width:700px;
+			left:40%;
+		
+		}
+		#pad {
+		background-color:orange;
+		margin-bottom:20px;
+		opacity:0.8;
+		border-style:solid;
+		border-color:grey;
+		width:200px;
+		height:100px;
+		}
+
+		#freqDial{
+			width:10px;
+			height: 10px;
+		}
+
+
+
+
+
+ 

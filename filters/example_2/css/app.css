@@ -1,0 +1,74 @@
+
+
+.transport{
+    width:75px;
+    height:75px;
+    margin:0 auto;
+    margin-bottom:60px;
+   
+
+}
+
+.transport-icon{
+    margin:0 auto;
+    background-color:green;
+    height:100%;
+    width:100%;
+}
+
+
+.parametric-eq-box {
+    position:relative;
+    top:50px;
+    margin: 0 auto;
+    width:400px;
+    border: 0px solid gray;
+}
+
+.parametric-eq{
+    margin:0 auto;
+    width:800px;
+}
+
+
+.eq-item {
+    display: inline-block;
+    padding: 0.9em;
+    border: 2px solid rgba(196, 28, 90, 0.16);
+    border-radius:5px;
+    height:150px;
+
+}
+
+p{
+    color:rgba(60, 75, 111, 0.94);
+    
+   
+}
+
+.description{
+     margin-left:20px;
+}
+
+
+#freqDial{
+    width:10px;
+    height: 10px;
+}
+
+        
+.freq-box{
+    background-color:rgba(9, 251, 184, 0.18);
+
+}
+
+
+.bandwidth-box{
+    background-color:rgba(169, 255, 0, 0.15);
+    
+}
+
+.gain-box{
+    background-color:rgba(251, 255, 0, 0.26);
+    
+}

@@ -1,0 +1,62 @@
+body{
+	background-color:orange;
+	font-family: "Arial";
+}
+
+.application{
+	width:550px;
+	margin:0 auto;
+}
+
+p,span,li,input{   
+	font-size:1.5em;
+}
+
+
+
+#sawtooth{
+	background-color: #336E91;
+}
+#sine{
+	background-color: #783d47;
+}
+#triangle{
+	background-color: #3b3040;
+}
+#square{
+	background-color: #b85635;
+}
+
+
+.osc-controls {
+	border-style:solid;
+	border-color: #BC6527;
+	border-width: 2px;
+	border-radius:10px;
+	margin-bottom:20px;
+}
+
+div{
+	padding:20px;
+}
+
+#oscilator-list li{ /* Descendent selector */
+	list-style-type: none;
+	color:white;
+
+}
+
+#oscilator-list{
+	padding-left:0px;
+}
+
+.selected-waveform{
+	outline:2px solid white;
+	
+
+}
+
+
+
+
+

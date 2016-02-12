@@ -1,0 +1,57 @@
+
+
+.transport{
+    width:75px;
+    height:75px;
+    margin:0 auto;
+    margin-bottom:100px;
+   
+
+}
+
+.transport-icon{
+    margin:0 auto;
+    background-color:green;
+    height:100%;
+    width:100%;
+}
+
+
+.graphic-eq-box {
+    position:relative;
+    top:50px;
+    margin: 0 auto;
+    width:400px;
+    border: 0px solid gray;
+}
+
+.graphic-eq{
+    margin:0 auto;
+    width:375px;
+    top:100px;
+}
+
+
+.eq {
+    display: inline-block;
+    padding: 0.9em;
+    border: 2px solid orange;
+}
+
+p{
+    color:rgba(60, 75, 111, 0.94);
+}
+
+.eq-band{
+    display:inline-block;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    width: 100%;
+    margin-left: 4px;
+}
+
+
+.ui-widget-header{
+    background-color: rgba(29, 32, 121, 0.36)
+}

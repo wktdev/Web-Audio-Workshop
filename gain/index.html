@@ -1,0 +1,24 @@
+<script>
+	
+
+var audioContext = new AudioContext(); 
+var oscillator = audioContext.createOscillator();
+var gain = audioContext.createGain();
+
+
+oscillator.type = "sawtooth"; //sawtooth,triangle,sine,square,custom
+oscillator.frequency.value = 70;
+oscillator.detune.value = 100; // value in cents;
+gain.gain.value = 0.1;
+oscillator.connect(gain);
+
+gain.connect(audioContext.destination);
+
+oscillator.start(audioContext.currentTime);
+
+
+
+
+
+
+</script>

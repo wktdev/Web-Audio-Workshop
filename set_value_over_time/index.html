@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html >
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/themes/hot-sneaks/jquery-ui.css" type="text/css"> 
+	    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.js" charset="utf-8"></script>
+	    <script src="audiocontext_check.js"></script>
+	       <script src="audiolib.js"></script>
+
+	</head>
+
+	<body>
+
+	<button id="play">PLAY</button>
+	<button id="stop">STOP</button>
+	<button id="setValueAtTime">set value at time</button>
+    <button id="changeUpExponentially">change exponential ramp +</button>
+    <button id="changeDownExponentially">change exponential ramp -</button>
+        <button id="changeUpLinearly">change linear ramp +</button>
+    <button id="changeDownLinearly">change linear ramp -</button>
+    <button id="changeCustom">change (custom)</button>
+      <button id="changeTargetAtTime">change targetAtTime</button>
+      <button id="cancelScheduledValues">cancel</button>
+    <script>
+
+		var sound = audioFileLoader("siren.mp3");
+		    
+		$("#play").on("click",function(){
+			sound.play(audioContext.currentTime);
+		});
+
+		$("#stop").on("click",function(){
+			sound.stop();
+			sound = audioFileLoader("siren.mp3");
+		});
+
+		$("#setValueAtTime").on("click",function(){
+			sound.setValueAtTime();
+	
+		});
+
+		$("#changeUpExponentially").on("click",function(){
+			sound.changeUpExponentially();
+	
+		});
+
+		$("#changeDownExponentially").on("click",function(){
+			sound.changeDownExponentially();
+	
+		});
+
+		$("#changeUpLinearly").on("click",function(){
+			sound.changeUpLinearly();
+	
+		});
+
+		$("#changeDownLinearly").on("click",function(){
+			sound.changeDownLinearly();
+	
+		});
+
+		$("#changeCustom").on("click",function(){
+			sound.changeCustom();
+	
+		});
+
+		$("#changeTargetAtTime").on("click",function(){
+			sound.changeTargetAtTime();
+	
+		});
+
+
+		$("#cancelScheduledValues").on("click",function(){
+			sound.cancel();
+	
+		});
+
+
+
+
+    
+    
+    </script>
+
+
+
+	</body>
+
+	</html>
