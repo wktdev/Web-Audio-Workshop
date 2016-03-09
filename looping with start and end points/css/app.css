@@ -1,0 +1,96 @@
+
+
+.transport{
+    width:75px;
+    height:75px;
+    margin:0 auto;
+    margin-bottom:60px;
+   
+
+}
+
+.transport-icon{
+    margin:0 auto;
+    height:100%;
+    width:100%;
+}
+
+.time-data-container{
+    width:250px;
+    margin: 0 auto;
+    margin-top:40px;
+}
+
+.time-data-container > p{
+    margin:0 auto;
+    
+}
+
+.length-data{
+    width:100px;
+
+}
+
+
+
+.app-box {
+    position:relative;
+    top:50px;
+    margin: 0 auto;
+    width:600px;
+    border: 0px solid gray;
+
+}
+
+.parameters-box{
+    margin:0 auto;
+    width:400px;
+    top:100px;
+
+}
+
+
+.start-params-slider{
+    display: inline-block;
+    padding: 0.9em;
+    border: 2px solid orange;
+}
+
+p{
+    color:rgba(60, 75, 111, 0.94);
+}
+
+.parameter-slider-box{
+    display:inline-block;
+    margin-left:55px;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    width: 100%;
+    margin-left: 4px;
+}
+
+.param-text{
+    font-size:13px;
+
+}
+
+.value-readouts{
+
+
+    width:320px;
+    margin:0 auto;
+    height:40px;
+}
+
+.param-text-val{
+    width:70px;
+    margin-left:30px;
+    display:inline-block;
+ 
+    
+}
+
+.ui-widget-header{
+    background-color: rgba(29, 32, 121, 0.36)
+}

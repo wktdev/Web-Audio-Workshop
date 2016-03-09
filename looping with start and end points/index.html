@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Time example</title>
+        <link rel="stylesheet" href="css/jquery-ui.css" type="text/css" />
+        <script type="text/javascript" src="js/jquery.js" charset="utf-8"></script>
+        <script type="text/javascript" src="js/jquery-ui.js" charset="utf-8"></script>
+        <script src="js/audio.js"></script>
+        <script src="js/multiband_eq.js"></script>
+        <script src="js/app.js"></script>
+        <link rel="stylesheet" href="css/app.css">
+    </head>
+    <body>
+        <div class="app-box">
+            <div class="transport">
+                <img class="transport-icon transport-icon-play" src="images/play.png" alt="transport">
+                <p>play/stop</p>
+            </div>
+            
+            <div class="parameters-box">
+                <div class="parameter-slider-box">
+                    <div class="start-params-slider" id="start-time-slider"></div>
+                    <p class="param-text">Start time</p>
+                </div>
+                <div class="parameter-slider-box">
+                    <div class="start-params-slider" id="start-point-slider"></div>
+                    <p class="param-text">Start point</p>
+                </div>
+                <div class="parameter-slider-box">
+                    <div class="start-params-slider" id="end-point-slider"></div>
+                    <p class="param-text">End point</p>
+                    
+                </div>
+                <div class="value-readouts">
+                    <p class="param-text-val" id="start-time-val"></p>
+                    <p class="param-text-val" id="start-point-val"></p>
+                    <p class="param-text-val" id="end-point-val"></p>
+                </div>
+            </div>
+            <div class="time-data-container">
+                <p>Full length of audio file in seconds</p>
+                <p class="length-data"></p>
+            </div>
+        </div>
+        
+    </body>
+</html>
